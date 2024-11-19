@@ -28,8 +28,13 @@ nav {
     padding: 10px;
 }
 
-. main-article-header {
+.main-article-header {
     text-align: center;
+}
+
+header, 
+main {
+    margin: 32px;
 }
 
 .banner-autoslide {
@@ -37,4 +42,31 @@ nav {
     background-image: url(https://images.unsplash.com/3/GoWildImages_MtEverest_NEP0555.jpg?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
     background-size: cover;
+}
+
+.our-package-header {
+    text-align: center;
+}
+
+.our-package-content {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.form-contact-us {
+    border: 1px solid;
+    height: 450px;
+    width: 300px;
+}
+
+.contact-us-text {
+    text-align: center;
+}
+
+.contact-us-content {
+    olor: grey;
+    text-align: center;
 }
