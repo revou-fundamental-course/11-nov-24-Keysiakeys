@@ -4,16 +4,20 @@ function validateForm() {
     console.log(nameInput) 
 }
 
+
 let indexSlide = 1;
 const listImages = document.getElementsByClassName ('banner-autoslide');
+
+showSlide();
 
 function nextSlide() {
     showSlide(indexSlide += 1);
 }
 
 function showSlide(index) {
-   // if (index > listImages.length) indexSlide = 1;
-   console.log(indexSlide)
+    // Resetter
+   if (index > listImages.length) indexSlide = 1;
+   console.log(indexSlide);
    hideAllSlide();
    listImages[indexSlide - 1].style.display = 'block';
 }
@@ -23,3 +27,6 @@ function hideAllSlide() {
     listImages[i].style.display = 'none';
     }
 }
+
+// Otomatisasi
+setInterval(()=> nextSlide(), 2000);

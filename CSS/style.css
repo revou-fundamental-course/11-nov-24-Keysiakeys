@@ -256,8 +256,9 @@ footer {
 }
 
 .footer-content {
-  padding: 60px;
+  padding: 20px;
   align-content: center;
+  margin: 20px;
 }
 
 .cta-container {
