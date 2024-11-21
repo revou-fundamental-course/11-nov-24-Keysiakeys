@@ -11,7 +11,7 @@
 .main-logo {
   height: 75px;
   width: 75px;
-  background-image: url(https://picsum.photos/seed/picsum/200/300);
+  background-image: url(https://picsum.photos/300);
   background-position: center;
   border-radius: 50%;
 }
@@ -44,6 +44,7 @@ main {
   margin: 0 auto;
   text-align: center;
 }
+
 
 .banner-autoslide img {
   width: 100%;
