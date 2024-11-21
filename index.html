@@ -51,9 +51,10 @@
             
                 <hr class="hr" />
                 <div class="testimonial-form">
-                    <h3>Use this space users with more information about your offer.
-                        Consider it a follow-up to your headline and explain the benefits of your 
-                        service or product.</h3>
+                    <h3>Travel terbaik dengan harga terjangkau! Saya mendapat pengalaman 
+                        perjalanan yang berkualitas tinggi dengan biaya yang sangat kompetitif. 
+                        Sangat direkomendasikan!
+                    </h3>
                 </div>
             </div>
             
@@ -65,23 +66,23 @@
                 <div class="contact-box">
                   <h2>Contact Us</h2>
                   <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
-                  <form>
+                  <form onsubmit="validateForm(event)">
                     <label for="name" class="form-label">Your Name:</label>
                     <input type="text" id="name" name="name" class="form-input" placeholder="First and last name" required>
-                
+                    
                     <label for="email" class="form-label">Email Address:</label>
                     <input type="email" id="email" name="email" class="form-input" placeholder="example@email.com" required>
                     
                     <label for="interest" class="form-label">What are you interested in?</label>
                     <select id="interest" name="interest" class="form-select" required>
-                      <option value="" disabled selected>Select option</option>
-                      <option value="option1">Tour</option>
-                      <option value="option2">Travel</option>
-                      <option value="option3">Other</option>
+                        <option value="" disabled selected>Select option</option>
+                        <option value="option1">Tour</option>
+                        <option value="option2">Travel</option>
+                        <option value="option3">Other</option>
                     </select>
-
-                    <button type="submit" class="form-button" onclick="validateForm()">SEND</button>
-                  </form>
+                
+                    <button type="submit" class="form-button">SEND</button>
+                </form>
                 </div>
               </div>
         </section>

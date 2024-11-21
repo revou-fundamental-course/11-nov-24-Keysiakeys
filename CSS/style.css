@@ -256,15 +256,14 @@ footer {
 }
 
 .footer-content {
-  padding: 20px;
   align-content: center;
-  margin: 20px;
 }
 
 .cta-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 35px;
 }
 
 .cta-button {
